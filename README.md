@@ -1,1 +1,1 @@
-Prebuilt chromium for pac-kk for faster build.
+Prebuilt chromium for aospal 5.1 for faster build.
