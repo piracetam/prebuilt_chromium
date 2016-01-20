@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := prebuilts/chromium/w5/
+LOCAL_PATH := prebuilts/chromium/w55ds/
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/app/webview/webview.apk:system/app/webview/webview.apk \
@@ -20,5 +20,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libwebviewchromium_plat_support.so:system/lib/libwebviewchromium_plat_support.so \
     $(LOCAL_PATH)/lib/libwebviewchromium_loader.so:system/lib/libwebviewchromium_loader.so
 
-$(shell mkdir -p out/target/product/w5/system/app/webview/lib/arm/)
-$(shell cp -r $(LOCAL_PATH)/app/webview/lib/arm/libwebviewchromium.so out/target/product/w5/system/app/webview/lib/arm/libwebviewchromium.so)
+$(shell mkdir -p out/target/product/w55ds/system/app/webview/lib/arm/)
+$(shell cp -r $(LOCAL_PATH)/app/webview/lib/arm/libwebviewchromium.so out/target/product/w55ds/system/app/webview/lib/arm/libwebviewchromium.so)
